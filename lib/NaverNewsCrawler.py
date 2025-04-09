@@ -13,8 +13,8 @@ def serchNaverNews(keyword):
       
       start_num = i * 100 + 1
 
-      client_id = "eHln2QR4WT1fKC_YtJxX"
-      client_secret = "DuYR7loEEt"
+      client_id = ""
+      client_secret = ""
       encText = urllib.parse.quote(keyword)# 검색어 한글로 안전하게 변환
       url = "https://openapi.naver.com/v1/search/news?query=" + encText + f"&display=100&start={start_num}"
       # url = "https://openapi.naver.com/v1/search/blog.xml?query=" + encText # XML 결과
