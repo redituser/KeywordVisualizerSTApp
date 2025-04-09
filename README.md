@@ -6,7 +6,8 @@
 
 ## 시스템 구성
 
-사용자 입력 → NaverNewsCrawler.py → 뉴스 데이터 수집 ↓ KeywordVisualizerSTApp.py ↓ myTextMining.py → 키워드 추출 및 빈도 계산 ↓ STVisualizer.py → 막대 그래프 / 워드클라우드 출력
+![image](https://github.com/user-attachments/assets/d0d746f7-1107-48dd-ae6e-48c4d0df17b3)
+
 
 
 ## 주요 기능
@@ -29,10 +30,10 @@
 
 # 주요 파일 설명
 
-NaverNewsCrawler.py  네이버 뉴스 API를 통해 뉴스 데이터 수집   
-myTextMining.py      키워드 추출 및 빈도수 분석 처리           
-STVisualizer.py         분석 결과를 시각화 (막대그래프, 워드클라우드) 
-KeywordVisualizerSTApp.py  Streamlit 기반 웹 인터페이스로 통합 운영 
+NaverNewsCrawler.py  -네이버 뉴스 API를 통해 뉴스 데이터 수집   
+myTextMining.py      -키워드 추출 및 빈도수 분석 처리           
+STVisualizer.py         -분석 결과를 시각화 (막대그래프, 워드클라우드) 
+KeywordVisualizerSTApp.py  -Streamlit 기반 웹 인터페이스로 통합 운영 
 
 
 # 실행 방법
