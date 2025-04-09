@@ -30,7 +30,7 @@
 
 # 주요 파일 설명
 
-NaverNewsCrawler.py  -네이버 뉴스 API를 통해 뉴스 데이터 수집\   
+NaverNewsCrawler.py  -네이버 뉴스 API를 통해 뉴스 데이터 수집  
 myTextMining.py      -키워드 추출 및 빈도수 분석 처리\
 STVisualizer.py         -분석 결과를 시각화 (막대그래프, 워드클라우드)\
 KeywordVisualizerSTApp.py  -Streamlit 기반 웹 인터페이스로 통합 운영 
