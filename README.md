@@ -1,21 +1,16 @@
 # 뉴스 키워드 분석 및 시각화 웹 애플리케이션
 
-# 개요
+## 개요
 이 프로젝트는 네이버 뉴스 API를 활용하여 특정 키워드와 관련된 뉴스를 수집하고, 해당 뉴스 본문으로부터 핵심 키워드를 추출하여 빈도 기반 분석 및 시각화를 수행하는 웹 애플리케이션입니다.
 
 
-# 시스템 구성
+## 시스템 구성
 
-사용자 입력 → NaverNewsCrawler.py → 뉴스 데이터 수집 
-                    ↓ 
-            KeywordVisualizerSTApp.py 
-				↓ 
-              myTextMining.py → 키워드 추출 및 빈도 계산
- 				↓ 
-			STVisualizer.py → 막대 그래프 / 워드클라우드 출력
+사용자 입력 → NaverNewsCrawler.py → 뉴스 데이터 수집 ↓ KeywordVisualizerSTApp.py ↓ myTextMining.py → 키워드 추출 및 빈도 계산 ↓ STVisualizer.py → 막대 그래프 / 워드클라우드 출력
 
 
-# 주요 기능
+## 주요 기능
+
 
 1. 뉴스 검색
 - serchNaverNews(keyword)함수를 통해 최대 1,000건의 뉴스 검색
